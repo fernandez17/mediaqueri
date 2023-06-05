@@ -1,0 +1,17 @@
+header{
+    border: 1px solid  hotpink;
+    width: 1200px;
+    height: 100px;
+}
+
+@media  (max-width:375px) {
+ header {background-color: blue;}
+ }
+
+  
+@media (min-width:768px) {
+    header{background-color: rebeccapurple}
+}
+@media  (min-width:1000px) {
+    header{background-color: chartreuse;}
+}
